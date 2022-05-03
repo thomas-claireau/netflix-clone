@@ -8,14 +8,19 @@ module.exports = {
       screens: {
         mini: '375px',
       },
+      backgroundImage: {
+        hero: 'linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%)',
+      },
     },
     colors: {
-      dark: '#282a37',
+      transparent: 'transparent',
+      dark: '#000',
       light: '#f6f6f4',
+      red: '#e30b13',
+      blue: '#0170eb',
       gray: {
-        100: '#e1e1e1',
-        300: '#B2B2B2',
-        600: '#545454',
+        100: '#a2a2a2',
+        600: '#303030',
       },
     },
     borderColor: (theme) => ({
