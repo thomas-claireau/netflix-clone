@@ -24,21 +24,13 @@ module.exports = {
     'no-undef': 'off',
     'no-tabs': 'off',
     'react/jsx-props-no-spreading': 'off',
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
-      },
-    ],
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/alt-text': 'off',
     'react/button-has-type': 'off',
     'react/require-default-props': 'off',
     'import/prefer-default-export': 'off',
     'react/react-in-jsx-scope': 'off',
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
   },
 };
